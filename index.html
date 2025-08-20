@@ -174,7 +174,7 @@
             formData.set('phoneNumber', '+91' + phoneValue);
             formData.set('jobId', jobIdField.value);
 
-            fetch('http://localhost:5678/webhook-test/resume-upload', {
+            fetch('https://sarkari-job-alerts-q4tc.onrender.com/webhook/resume-upload', {
                 method: 'POST',
                 body: formData
             })
@@ -197,3 +197,4 @@
     </script>
 </body>
 </html>
+
